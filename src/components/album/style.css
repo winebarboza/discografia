@@ -1,0 +1,77 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding-left: 8px;
+  text-align: left;
+}
+.faixa {
+  width: 30rem;
+}
+button {
+  background-color: transparent;
+}
+table th.numero, table th.faixa, table th.duracao{
+  font-weight: 100;
+}
+
+
+.album-table th.duracao,
+.album-table td.duracao {
+  display: flex;
+  
+}
+#scroll-div{
+  max-height: 300px; 
+   overflow-y: auto;
+   -webkit-overflow-scrolling: touch;
+   touch-action: pan-y; 
+}
+#scroll-div::-webkit-scrollbar{
+  width: 5px;
+
+}
+#scroll-div::-webkit-scrollbar-thumb{
+  background-color: rgb(161, 161, 161);
+  border-radius: 10px;
+
+}
+#add-music{
+  font-size: 1.5rem;
+  margin-top: 0.5px;
+}
+#add-music:hover{
+  color: rgb(4, 187, 47);
+}
+#del-button{
+  font-size: 1.2rem;
+}
+#del-album:hover{
+  color: red;
+}
+ #add-music{
+  color: rgb(6, 7, 6);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+ }
+
+ #delete-button{
+  font-size: 1.2em;
+  color: red;
+ }
+ #del-button{
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+ }
+#del-album{
+  font-size: 1.2em;
+}
+
+#icons{
+  display: flex;
+  justify-items: center;
+  align-items: baseline;
+}

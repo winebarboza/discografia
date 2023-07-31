@@ -1,0 +1,19 @@
+.form{
+  display: block;
+  margin:0.5rem;
+  height: 5rem;
+}
+.form h3,p {
+  width: 100%; 
+  text-align: center !important;
+}
+input:invalid {
+  border: 1px solid red !important;
+}
+
+.input-submit-album{
+  color: aliceblue;
+  background-color: #0C88D8;
+  margin-top: 2rem;
+  cursor: pointer;
+}
