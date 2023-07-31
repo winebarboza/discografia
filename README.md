@@ -7,7 +7,7 @@ Projeto desenvolvido em ReactJs sobre a discografia da dupla sertaneja Tião Car
 ## Demonstração
 
 
-![screen-gif](./public/assets/gif-demonstracao.gif)
+![screen-gif](./public/assets/gif-demonstração.gif)
 
 ---
 
