@@ -6,7 +6,7 @@ Projeto desenvolvido em ReactJs sobre a discografia da dupla sertaneja Tião Car
 
 ## Demonstração
 
-
+[Link da aplicação](https://discografia-tiao-e-pardinho.vercel.app/)
 ![screen-gif](./public/assets/gif-demonstração.gif)
 
 ---
